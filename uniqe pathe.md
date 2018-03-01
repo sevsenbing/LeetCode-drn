@@ -1,11 +1,11 @@
 # Unique Paths
-##问题：
+## 问题：
 A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).How many possible unique paths are there?
 
 Note: m and n will be at most 100.
-##分析：
+## 分析：
 和之前学的走楼梯有点像，这个就是有的格子有两种走法，向右或者向下，有的格子只有一种，向右。最后把所有情况加一起就可以啦。</br>
-##代码：
+## 代码：
 ```ruby
 int uniquePaths(int m, int n) {
     int heng=(m>n)?m:n;
