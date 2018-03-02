@@ -11,6 +11,7 @@ The range of numbers in the array is [-1000, 1000] and the range of the integer 
 
 ## 分析：
 这道题大概意思是在给定的数组中找出连续的分数组，数组中的数相加等于目标值，最后返回此类数组的个数。我的做法就是利用两个for循环。</br>
+不过我这个方法运行了288ms，应该是最烂的方法，上网看了一下别人的做法都是用哈希表。
 
 ## 代码：
 ```ruby
@@ -24,8 +25,5 @@ int subarraySum(int* nums, int numsSize, int k) {
             if(sum==k) res++;
         }
     }
-    return res;
+    return res;
 }
-
-## 问题：
-最后运行了288ms，一看我这就是最不好的解法了…………</br>
