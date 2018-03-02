@@ -19,6 +19,7 @@ The total number of unique paths is 2.
 Note: m and n will be at most 100.
 ## 分析：
 就像unique paths I 一样，仍然是走楼梯思路，不同的地方就是多了障碍物，一旦遇到障碍物，就此路不通了。也就是说，只要遇到障碍物，之前所有走过的路都归零。所以可以反向加，每个格子的方法个数取决于上面的格子和左边的格子，并且该格子若有障碍物，就要归零。这个方法需要注意的是，要把所有初始的最左和最上的格子先判断完，再遍历剩下的。</br>
+我写的代码运行时间是0ms，还ok。</br>
 ## 代码：
 ```ruby
 int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridRowSize, int obstacleGridColSize) {
