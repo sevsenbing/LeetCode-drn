@@ -9,7 +9,7 @@ Note that 1 is typically treated as an ugly number.
 Credits:
 Special thanks to @jianchao.li.fighter for adding this problem and creating all test cases.
 
-<<分析：
+## 分析：
 直接while循环，如果模2、3、5等于零就除去，再继续。<br>
 注意特殊情况，0，负数什么的。<br>
 
