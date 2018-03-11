@@ -20,7 +20,7 @@ Only three moves are needed (remember each move increments two elements):
 查了别人的代码，学到一个关于C++的新语法：<br>
 for(int a:b){    } 意思是：从数组b依次取出元素赋值给整形变量a，循环执行for中语句。<br>
 
-##代码：
+## 代码：
 ```ruby
 class Solution {
 public:
