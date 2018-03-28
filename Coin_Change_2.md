@@ -27,7 +27,7 @@ Example 3:
 Input: amount = 10, coins = [10] 
 Output: 1
 ## 分析：
-二
+二在理解上比一简单一些。只要找出题中给出的硬币有多少种组合方式就可以了<br>
 ## 代码：
 ```ruby
 class Solution {
@@ -36,7 +36,8 @@ public:
         vector<int>ans(amount+1);
         ans[0]=1;
         for(int i:coins){
-            for(int j=1;j<=amount;j++) if(j>=i)ans[j]+=ans[j-i];
+            for(int j=1;j<=amount;j++) 
+                if(j>=i)ans[j]+=ans[j-i];
         }
         return ans[amount];
     }
