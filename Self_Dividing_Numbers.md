@@ -18,6 +18,7 @@ The boundaries of each input argument are 1 <= left <= right <= 10000.
 ## 分析：
 额外定义函数用来判断能不能自除，并且需要注意被除数不能是0。<br>
 ## 代码：
+```ruby
 class Solution {
 public:
     bool is(int num){
