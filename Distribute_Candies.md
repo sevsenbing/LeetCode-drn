@@ -19,7 +19,11 @@ The length of the given array is in range [2, 10,000], and will be even.
 The number in given array is in range [-100,000, 100,000].
 
 ## 分析：
-
+排序，然后遍历<br>
+用last保存上一个是什么<br>
+当遇到不同的candy，ans++，other++<br>
+遇到相同的，other--<br>
+结果是ans-other/2<br>
 ## 代码：
 ```ruby
 class Solution {
@@ -37,5 +41,9 @@ public:
          }
          return o>0?ans-o/2:ans;
     }
-}
-}
+};
+```
+又找到了
+```强无敌
+```的
+```
