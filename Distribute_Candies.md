@@ -43,7 +43,11 @@ public:
     }
 };
 ```
-又找到了
-```强无敌
-```的
-```
+又找到了强无敌的一行代码的，是利用集合set的自动去重复特性来求出糖的种类数，与n/2比较，取较小值返回<br>
+```ruby
+class Solution {
+public:
+    int distributeCandies(vector<int>& candies) {
+        return min(unordered_set<int>(candies.begin(), candies.end()).size(), candies.size() / 2);
+    }
+};
