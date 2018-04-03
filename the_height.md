@@ -14,10 +14,10 @@ int main(){
     float x,y;
     int h=0;
     scanf("%f%f",&x,&y);
-    if(x>=0&&y>=0) if(pow(x-2,2)+pow(y-2,2)<=1) h=15;
-    if(x>=0&&y<=0) if(pow(x-2,2)+pow(y+2,2)<=1) h=15;
-    if(x<=0&&y>=0) if(pow(x+2,x)+pow(y-2,2)<=1) h=15;
-    if(x<=0&&y<=0) if(pow(x+2,x)+pow(y+2,2)<=1) h=15;
+    if(x>=0&&y>=0&&pow(x-2,2)+pow(y-2,2)<=1) h=15;
+    if(x>=0&&y<=0&&pow(x-2,2)+pow(y+2,2)<=1) h=15;
+    if(x<=0&&y>=0&&pow(x+2,x)+pow(y-2,2)<=1) h=15;
+    if(x<=0&&y<=0&&pow(x+2,x)+pow(y+2,2)<=1) h=15;
     printf("%d\n",h);
     return 0;
 }
