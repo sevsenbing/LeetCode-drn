@@ -21,3 +21,16 @@ int main(){
     printf("%d\n",h);
     return 0;
 }
+```
+p.s突然意识到既然都用了math那一堆，那就用abs函数取绝对值！
+```ruby
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float x,y;
+    int h=0;
+    scanf("%f%f",&x,&y);
+    if(pow(abs(x)-2,2)+pow(abs(y)-2,2)<=1) h=15;
+    printf("%d\n",h);
+    return 0;
+}
