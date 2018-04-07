@@ -1,15 +1,15 @@
 # Ugly Number II
 ## 题目：
-1. Write a program to find the n-th ugly number.
+Write a program to find the n-th ugly number.
 
-2. Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. For example, 1, 2, 3, 4, 5, 6, 8, 9, 10, 12 is the sequence of the first 10 ugly numbers.
+Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. For example, 1, 2, 3, 4, 5, 6, 8, 9, 10, 12 is the sequence of the first 10 ugly numbers.
 
-3. Note that 1 is typically treated as an ugly number, and n does not exceed 1690.
+Note that 1 is typically treated as an ugly number, and n does not exceed 1690.
 
 ## 分析：
-### 这道题和丑数一很想，这个是可以被2 3 5整除的数就是丑数。并且1就是丑数<br>
-### 接下来就是把已经求得的数组中的某个元素乘上2或者3或者5得到下一个应该存入数组的丑数。<br>
-### 丑数的下标初始化时下标都为0，加入新数后2 3 5要乘的数相应后移。<br>
+#### 这道题和丑数一很想，这个是可以被2 3 5整除的数就是丑数。并且1就是丑数<br>
+#### 接下来就是把已经求得的数组中的某个元素乘上2或者3或者5得到下一个应该存入数组的丑数。<br>
+#### 丑数的下标初始化时下标都为0，加入新数后2 3 5要乘的数相应后移。<br>
 
 ## 代码：
 ```ruby
