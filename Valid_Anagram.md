@@ -14,7 +14,7 @@ What if the inputs contain unicode characters? How would you adapt your solution
 
 ## 分析：
 继续处理寒假的历史遗留问题……这道题我大概当时没有理解题意吧<br>
-其实很简单的一道题，只要排序再比教就行了。
+其实很简单的一道题，只要排序再比较就行了。
 
 ## 代码：
 ```ruby
