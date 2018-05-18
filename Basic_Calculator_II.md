@@ -38,8 +38,8 @@ public:
                     case'-': ll-=num; break;
                     case'*': ll*=num; break;
                     case'/': ll/=num; break;
-                }
-                if(fh=='+'||fh=='-'||i==s.size()-1){
+                } 
+                if(fh=='+'||fh=='-'||i==s.size()-1){
                     ans+=ll;ll=0;
                 }
                 f=fh;num=0;
