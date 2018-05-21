@@ -29,6 +29,7 @@ Each element nums[i] is an integer in the range [1, 10000].
 那么这道题就是一个抉择问题了.判断要不要删除这个数字，还要看这个数字之前之后。<br>
 
 ## 代码：
+```ruby
 class Solution {
 public:
     int deleteAndEarn(vector<int>& nums) {
