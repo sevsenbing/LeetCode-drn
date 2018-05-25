@@ -15,7 +15,7 @@ The first node is considered odd, the second node even and so on ...
 ## 分析：
 这道题要把偶数和奇数分开，用两个指针来做，一个指向奇数，一个指向偶数。
 ## 代码：
-```ruby
+```C++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
