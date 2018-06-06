@@ -28,7 +28,8 @@ Every nums[i] will be an integer in the range [0, 99].
 ## 分析：
 注意要首先找出最大值，然后遍历。
 ## 代码：
-```class Solution {
+```C++
+class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
         int ans=-1,max=0;
