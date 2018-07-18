@@ -1,5 +1,5 @@
 # Excel Sheet Column Title
-##题目：
+## 题目：
 Given a positive integer, return its corresponding column title as appear in an Excel sheet.<br>
 
 For example:
@@ -29,9 +29,9 @@ Example 3:
 Input: 701
 Output: "ZY"
 ```
-##分析：
+## 分析：
 当做二十六进制即可，注意开头是一。
-##代码
+## 代码:
 ```C++
 class Solution {
 public:
