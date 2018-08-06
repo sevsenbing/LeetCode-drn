@@ -1,5 +1,6 @@
 # Self Dividing Numbers
 ## 题目：
+```
 A self-dividing number is a number that is divisible by every digit it contains.
 
 For example, 128 is a self-dividing number because 128 % 1 == 0, 128 % 2 == 0, and 128 % 8 == 0.
@@ -15,6 +16,7 @@ Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22]
 Note:
 
 The boundaries of each input argument are 1 <= left <= right <= 10000.
+```
 ## 分析：
 额外定义函数用来判断能不能自除，并且需要注意被除数不能是0。<br>
 ## 代码：
@@ -32,9 +34,7 @@ public:
     }
     vector<int> selfDividingNumbers(int left, int right) {
         vector<int> ans;
-        for(int i=left;i<=right;i++){
-            if(is(i)) ans.push_back(i);
-        }
+        for(int i=left;i<=right;i++){if(is(i)) ans.push_back(i);}
         return ans;
     }
 };
