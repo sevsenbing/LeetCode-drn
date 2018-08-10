@@ -1,4 +1,5 @@
 # Power of Two
+***
 ## 题目：
 Given an integer, write a function to determine if it is a power of two.
 ## 分析：
